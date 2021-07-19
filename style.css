@@ -1,0 +1,9 @@
+body{
+    height:750px;
+}
+
+.navbar-brand {
+    background-color:aquamarine;
+    margin-left: 0px;
+    font-weight: bold;
+}
