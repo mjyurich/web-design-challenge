@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -30,17 +30,17 @@
                   Plots
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="WebVisualizations/temperature.html">Max Temperature</a>
-                    <a class="dropdown-item" href="WebVisualizations/humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="WebVisualizations/cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="WebVisualizations/wind.html">Wind Speed</a>
+                    <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="WebVisualizations/comparison.html">COMPARISON</a>
+                <a class="nav-link" href="comparison.html">COMPARISON</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="WebVisualizations/data.html">DATA</a>
+                <a class="nav-link" href="data.html">DATA</a>
             </li>
             </ul>
             <form class="d-flex">
@@ -52,18 +52,18 @@
       </nav>
 
       <div class="container">
-          <div class="row">
-              <div class="table-content">
-                  <div class="col-12">
-                      <h3 class="plot-header">Data</h3>
-                      <hr>
-                      <p>The following table includes all of the data used for plotting during this project</p>
-                      <br>
-                      <table class="table1">
-                          
-                      </table>
-                  </div>
+        <section class="row">
+          <div class="col-lg-7 col-md-12">
+              <div class="plot-content">
+                <h1 class="plot-header">Wind Speed</h1>
+                <hr>
+                <img src="assets/images/Fig4.png" alt="Latitude vs. wind speed">
+                <p>There is very little relationship that can be seen between city latitude and wind speed. Most cities have low wind speeds. At higher latitudes, there seem to be more cities with extrem wind speeds</p>
               </div>
-          </div>
-      </div>
+            </div>
+          </section>
+        </div>
+
 </body>
+
+</html>

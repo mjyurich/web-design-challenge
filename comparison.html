@@ -26,21 +26,21 @@
                 <a class="nav-link" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Plots
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="WebVisualizations/temperature.html">Max Temperature</a>
-                    <a class="dropdown-item" href="WebVisualizations/humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="WebVisualizations/cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="WebVisualizations/wind.html">Wind Speed</a>
+                    <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="WebVisualizations/comparison.html">COMPARISON</a>
+                <a class="nav-link" href="comparison.html">COMPARISON</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="WebVisualizations/data.html">DATA</a>
+                <a class="nav-link" href="data.html">DATA</a>
             </li>
             </ul>
             <form class="d-flex">
@@ -50,4 +50,45 @@
           </div>
         </div>
       </nav>
+
+      <div class='container'>
+        <div class='row'>
+          <div class='box'>
+            <h4 class='title'>Comparison: Latitude vs X</h4>
+            <hr>
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="title">vs. Max Temperature</div>
+                      <a href="temperature.html">
+                          <img class="panel" src="assets/images/Fig1.png" alt="Max Temperature Graph">
+                      </a>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="title">vs. Humidity</div>
+                    <a href="humidity.html">
+                        <img class="panel" src="assets/images/Fig2.png" alt="Humidity Graph">
+                    </a>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                      <div class="title">vs. Cloudiness</div>
+                      <a href="cloudiness.html">
+                          <img class="panel" src="assets/images/Fig3.png" alt="Cloudiness Graph">
+                      </a>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="title">vs. Wind Speed</div>
+                    <a href="wind.html">
+                        <img class="panel" src="assets/images/Fig4.png" alt="Wind Speed Graph">
+                    </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      
 </body>
+
+</html>
